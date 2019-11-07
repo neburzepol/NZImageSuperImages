@@ -1,0 +1,16 @@
+PODS:
+  - NZSuperImages (0.1.0)
+
+DEPENDENCIES:
+  - NZSuperImages (from `../`)
+
+EXTERNAL SOURCES:
+  NZSuperImages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NZSuperImages: 1c2ce0d97fcb06542f17f91e8bad6bcd7aac0f6d
+
+PODFILE CHECKSUM: d33f68ec0f4eb2dae8d272c7be474b11705b5a2c
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,6 @@
+framework module NZSuperImages {
+  umbrella header "NZSuperImages-umbrella.h"
+
+  export *
+  module * { export * }
+}
