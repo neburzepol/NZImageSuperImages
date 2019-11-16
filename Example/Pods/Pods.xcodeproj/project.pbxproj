@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22FA6430237E08C4002D9BEC /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA642F237E08C4002D9BEC /* UIImageViewExtensions.swift */; };
 		3514893EBE280F14075EA640E5420BD6 /* Pods-NZSuperImages_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 736466FD33BD1675538C60DBFA4AA0BC /* Pods-NZSuperImages_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BED7EE3005D199F601487BDE341AE57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		983F7CCB1BF025F12B1C18C3D8B23A9B /* Pods-NZSuperImages_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6561AD5DF81DA017DFDFB6EC4C1C7 /* Pods-NZSuperImages_Tests-dummy.m */; };
 		A87B2FC0188302602B13B83F5528AEF6 /* NZSuperImages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DDA07DE25353BE067CD96FBA3F06BA /* NZSuperImages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACA24279BE8177DDD66FB5CCCD8BC0E4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF02C6D7ACB059BA9B263B1C45F699C1 /* ReplaceMe.swift */; };
 		BEFAAF5B240D2C71DC52B2164F4B2C3F /* Pods-NZSuperImages_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E90380341489A70176531F385504878 /* Pods-NZSuperImages_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8C8C1FF370A7A3862D6474552D97A1D /* Pods-NZSuperImages_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B82DD5D1D321F04CF04AEC4E6460EC1F /* Pods-NZSuperImages_Example-dummy.m */; };
 		E96BFCD4AA3C62F7340DD1B68483F048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -40,6 +40,7 @@
 		0013FFBCA04A7C15B9216D76F9DB52A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		021319CE04ED1C2237AF99AC8F573935 /* Pods-NZSuperImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NZSuperImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		20DEFD18D6FFB143FE3C81D2E91CD682 /* NZSuperImages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NZSuperImages-prefix.pch"; sourceTree = "<group>"; };
+		22FA642F237E08C4002D9BEC /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = NZSuperImages/Classes/UIImageViewExtensions.swift; sourceTree = "<group>"; };
 		2C9FEB1FB84B7FDD4FEBF630A0EA67CC /* NZSuperImages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NZSuperImages-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E90380341489A70176531F385504878 /* Pods-NZSuperImages_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NZSuperImages_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		CFEFF672E648D73A43CF7BFC754B157F /* Pods_NZSuperImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NZSuperImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A8A799054C509AFB717FA6492B086C /* Pods-NZSuperImages_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NZSuperImages_Example-Info.plist"; sourceTree = "<group>"; };
 		E10B1B3E7773D97A44E38A821E44DCC8 /* Pods-NZSuperImages_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NZSuperImages_Tests-Info.plist"; sourceTree = "<group>"; };
-		EF02C6D7ACB059BA9B263B1C45F699C1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NZSuperImages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F53FD5D2EAF75EA547C31729FC1D989D /* Pods_NZSuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NZSuperImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70ED4B2DDB7A55AF75BEDD4DF985493 /* NZSuperImages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NZSuperImages.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,9 +120,9 @@
 		4295D0CB549A4F2935255CFCBEABA7B2 /* NZSuperImages */ = {
 			isa = PBXGroup;
 			children = (
-				EF02C6D7ACB059BA9B263B1C45F699C1 /* ReplaceMe.swift */,
 				ECD2A974D59F9181E0FD01AE61E36629 /* Pod */,
 				A2B3D207854FFB4D0BC725A2F3966B68 /* Support Files */,
+				22FA642F237E08C4002D9BEC /* UIImageViewExtensions.swift */,
 			);
 			name = NZSuperImages;
 			path = ../..;
@@ -385,8 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FA6430237E08C4002D9BEC /* UIImageViewExtensions.swift in Sources */,
 				FF38FC615CC97999DBA11F9E1E7D28F1 /* NZSuperImages-dummy.m in Sources */,
-				ACA24279BE8177DDD66FB5CCCD8BC0E4 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBF82964D36BBE72FDFD15C94D9DA802 /* NZSuperImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -465,6 +466,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -543,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBF82964D36BBE72FDFD15C94D9DA802 /* NZSuperImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
